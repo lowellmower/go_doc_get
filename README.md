@@ -1,6 +1,8 @@
 # Go, Go Doc Get... Go!
 Go Doc Get is a small Sublime Text 3 Plugin for quickly getting GoDocs from the standard library
-![screen cast](https://s3.amazonaws.com/img0.recordit.co/BCdZttUt8N.mp4?AWSAccessKeyId=AKIAINSRFOQXTN4DT46A&Expires=1493502007&Signature=UxqX0hICvV1VVRS%2Bk0I2%2F7KqNA4%3D)
+
+![screen cast](https://github.com/lowellmower/go_doc_get/edit/master/screen_cast.gif)
+
 ### Installation:
 Clone this repository and move the file into your Sublime Text 3 Packages path. Below is the default, however, if you've move your packages elsewhere, adjust the `cp` command accordingly.
 ```
