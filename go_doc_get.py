@@ -14,8 +14,12 @@ class GoDocGetCommand(sublime_plugin.TextCommand):
 			selected = view.substr(region)
 
 		if "github.corp" in selected:
-			# if corporate go to page
+			# if corporate go to page on master branch
 			pkg = cleanPackage(selected)
+			res = pkg.split('/')
+			res.insert(2, 'tree/master')
+			pkg = '/'.join(res)
+			
 			webbrowser.open('https://github.corp.dyndns.com/' + pkg)
 		elif "github" in selected:
 			# if public package go to doc
